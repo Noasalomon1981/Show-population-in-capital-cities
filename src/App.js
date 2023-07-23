@@ -1,10 +1,12 @@
 import React from 'react';
 import EsriMap from './EsriMap';
+import TextWhidgt from './TextWhidgt';
 
 function App() {
   return (
     <div>
-      <h1>מפת ערים ותושבים</h1>
+      
+      <TextWhidgt/>
       <EsriMap />
     </div>
   );
